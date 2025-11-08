@@ -1,5 +1,7 @@
 ## 1. List Students - `list_students.jsp`
 
+<img width="3050" height="933" alt="image" src="https://github.com/user-attachments/assets/d9c57bf5-e653-4dc5-9f57-07c176d44241" />
+
 This flow explains how the initial list of students is retrieved and displayed.
 
 ### Flow: Client $\to$ Server $\to$ Database $\to$ Server $\to$ Client
@@ -24,6 +26,9 @@ This flow explains how the initial list of students is retrieved and displayed.
 
 ## 2. Add Student - `add_student.jsp` $\to$ `process_add.jsp`
 
+<img width="1213" height="927" alt="image" src="https://github.com/user-attachments/assets/fc5e481a-36fe-41e3-9c3a-d3d605166bcf" />
+<img width="3022" height="873" alt="image" src="https://github.com/user-attachments/assets/0c219f6e-c1d9-45c8-817c-e79912b8a617" />
+
 This is a two-step Post-Redirect-Get flow.
 
 ### Flow: Client $\to$ Server $\to$ Database $\to$ Server $\to$ Client
@@ -46,6 +51,9 @@ This is a two-step Post-Redirect-Get flow.
 ---
 
 ## 3. Edit Student - `edit_student.jsp` $\to$ `process_edit.jsp`
+
+<img width="1182" height="920" alt="image" src="https://github.com/user-attachments/assets/a825ecdd-d951-4740-9570-8e3f2e9b41d0" />
+<img width="3048" height="882" alt="image" src="https://github.com/user-attachments/assets/4fedc0a6-46f2-4aa2-974c-a92d254f6d51" />
 
 This flow also involves two pages but requires a preliminary database query to pre-fill the form.
 
@@ -72,6 +80,9 @@ This flow also involves two pages but requires a preliminary database query to p
 ---
 
 ## 4. Delete Student - `delete_student.jsp`
+
+<img width="792" height="242" alt="image" src="https://github.com/user-attachments/assets/ea465525-54d3-4287-9001-a282fdca1beb" />
+<img width="3037" height="815" alt="image" src="https://github.com/user-attachments/assets/a0556fe3-5f28-4901-90c2-1f7287dd1e98" />
 
 This is a single-page, immediate process executed via a GET link.
 
