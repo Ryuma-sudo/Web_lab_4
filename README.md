@@ -1,3 +1,15 @@
+## STUDENT INFORMATION:
+Name: Nguyen Quang Truc
+Student ID: ITCSIU23041
+Class: Group 2
+
+## COMPLETED EXERCISES:
+[x] Exercise 5: Search Functionality
+[x] Exercise 6: Validation Enhancement
+[x] Exercise 7: Pagination
+[ ] Bonus 1: CSV Export
+[ ] Bonus 2: Sortable Columns
+
 ## 1. List Students - `list_students.jsp`
 
 <img width="3050" height="933" alt="image" src="https://github.com/user-attachments/assets/d9c57bf5-e653-4dc5-9f57-07c176d44241" />
@@ -100,3 +112,24 @@ This is a single-page, immediate process executed via a GET link.
     * If `rowsAffected > 0`, it redirects to **`list_students.jsp?message=...`**.
     * If `rowsAffected = 0` (ID not found) or a `SQLException` occurs, it redirects to **`list_students.jsp?error=...`**.
 5.  **Client Response:** The client loads the list page, showing the resulting data.
+That's great progress! Based on the comprehensive lab guide you provided, exercises 5, 6, and 7 cover the implementation of the core **CRUD** operations: **Read (List)**, **Create (Add)**, **Update (Edit)**, and **Delete**.
+
+Here is the report summarizing the implementation and key takeaways for each exercise.
+
+---
+
+### 5. Search functionality
+
+<img width="3042" height="700" alt="image" src="https://github.com/user-attachments/assets/17e02ddd-f448-49b7-9f3a-a59e3078c6b5" />
+
+### 6. Validation enhancement
+
+<img width="1189" height="961" alt="image" src="https://github.com/user-attachments/assets/5606f98f-c4be-4566-8a1c-6d4573681261" />
+
+### 7. User experiment improvements
+
+<img width="3029" height="925" alt="image" src="https://github.com/user-attachments/assets/40ad1e43-9dd7-41fb-b077-f858340a7015" />
+<img width="3021" height="582" alt="image" src="https://github.com/user-attachments/assets/cad1f4bb-3a36-4fd4-9e02-8cfd86508454" />
+
+
+
