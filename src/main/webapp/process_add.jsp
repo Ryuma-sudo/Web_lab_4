@@ -12,6 +12,13 @@
         return;
     }
 
+    String emailPattern = "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$";
+
+    if (email != null && !email.isEmpty() && !email.matches(emailPattern)) {
+        response.sendRedirect("add_student.jsp?error=Invalid+email+format");
+        return;
+    }
+
     Connection conn = null;
     PreparedStatement pstmt = null;
 

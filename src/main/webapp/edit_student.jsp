@@ -28,6 +28,14 @@
         }
         .error { background: #f8d7da; color: #721c24; padding: 10px; border-radius: 5px; margin-bottom: 20px; }
     </style>
+    <script>
+        function submitForm(form) {
+            var btn = form.querySelector('button[type="submit"]');
+            btn.disabled = true;
+            btn.textContent = "Processing...";
+            return true;
+        }
+    </script>
 </head>
 <body>
 <%
@@ -101,7 +109,7 @@
     <div class="error"><%= request.getParameter("error") %></div>
     <% } %>
 
-    <form action="process_edit.jsp" method="POST">
+    <form action="process_edit.jsp" method="POST" onsubmit="return submitForm(this)">
         <input type="hidden" name="id" value="<%= studentId %>">
 
         <div class="form-group">
