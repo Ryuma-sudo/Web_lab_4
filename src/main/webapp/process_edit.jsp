@@ -14,7 +14,7 @@
     String emailPattern = "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$";
 
     if (email != null && !email.isEmpty() && !email.matches(emailPattern)) {
-        response.sendRedirect("edit_student.jsp?error=Invalid+email+format");
+        response.sendRedirect("list_students.jsp?error=Invalid+email+format");
         return;
     }
 
